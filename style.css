@@ -75,8 +75,7 @@ header {
   line-height: 1.8rem;
   color: #ffffff;
   border: none;
-  height: 40px;
-  width: 20rem;
+  padding: 1em 2em;
   transition: 0.5s;
 }
 .screen-mockup {
@@ -315,6 +314,7 @@ h3 {
   width: 16rem;
   height: 4.8rem;
   transition: 0.3s;
+  border: none;
 }
 .footer-last {
   display: flex;
@@ -383,8 +383,9 @@ li :hover {
   background: #ff8ed7;
   cursor: pointer;
 }
-.try-button {
+.try-button:hover {
   border-color: #ff8ed7;
+  color: #ff8ed7;
   cursor: pointer;
 }
 
@@ -422,8 +423,7 @@ li :hover {
     padding: 12rem 21.2rem 5rem;
   }
   .started-btn {
-    width: 40rem;
-    height: 8rem;
+    padding: 1.6em 8em 1.6em 8em;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
@@ -464,7 +464,7 @@ li :hover {
     grid-area: 1/2;
   }
   .something {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
   }
